@@ -1,3 +1,5 @@
+/* application to compute the richest customer wealth in a double array */
+
 int maximumWealth(int** accounts, int accountsSize, int* accountsColSize){
     int colSize = *accountsColSize;
     int max = 0;
